@@ -13,7 +13,7 @@ Anaconda is perhaps the easiest way to install Python and additional packages ac
 ## Step 3: Easy install for Windows and MacOS: use our supplied Anaconda environments.
 Please click here: https://github.com/AlexEMG/DeepLabCut/blob/master/conda-environments/README.md
 
-test
+
 
 **For LINUX ONLY, follow below!** (Ubuntu 16.04 or 18.04 LTS):
 
