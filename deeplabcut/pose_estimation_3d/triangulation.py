@@ -165,7 +165,7 @@ def triangulate(config,video_path,videotype='avi',filterpredictions=True,filtert
                 points_cam1_undistort[low_likelihood_frames] = np.nan,np.nan
                 points_cam1_undistort = np.expand_dims(points_cam1_undistort, axis=1)
     
-                points_cam2_undistort = np.array([dataFrame_camera2_undistort[scorer_cam1][bp]['x'].values[:], dataFrame_camera2_undistort[scorer_cam2][bp]['y'].values[:]])
+                points_cam2_undistort = np.array([dataFrame_camera2_undistort[scorer_cam3][bp]['x'].values[:], dataFrame_camera2_undistort[scorer_cam2][bp]['y'].values[:]])
                 points_cam2_undistort = points_cam2_undistort.T
     
                 # For cam2 camera: Assign nans to x and y values of a bodypart where the likelihood is less than pvalue
